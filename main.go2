@@ -1,0 +1,16 @@
+package main
+
+import (
+	"cscsll/pkg/cscsll"
+)
+
+func main() {
+
+	eList := cscsll.Create(make([]int, 10))
+	eList.Add(1)
+	eList.Add(2)
+	eList.Add(3)
+	eList.Add(2)
+	eList.Dump()
+
+}
